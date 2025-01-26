@@ -1,0 +1,22 @@
+.course{
+  transition: 0.6s ease;
+}
+.btn{
+  margin: 2vh;
+}
+
+.title{
+  margin: 3vh;
+}
+
+.course:hover{
+  .btn{
+      border: 1px solid black;
+      
+  }
+
+  .btn:hover{
+      background-color: grey;
+      color: white;
+  }
+}
